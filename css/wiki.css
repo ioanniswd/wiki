@@ -1,0 +1,44 @@
+
+
+
+body {
+    background-color: black;
+}
+
+p, a {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container-fluid {
+        margin-top: 40px;
+    }
+}
+
+#list {
+    margin-top: 30px;
+}
+
+
+.result {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.side {
+    border-left-style: groove;
+    border-left-width: 5px;
+    border-left-color: yellow;
+}
+
+
